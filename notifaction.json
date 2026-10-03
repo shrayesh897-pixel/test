@@ -1,0 +1,17 @@
+{
+  "enabled": true,
+  "title": "Patro Hub",
+  "headline": "🌟 Enjoying Patro Hub?",
+  "message": "यदि Patro Hub तपाईंलाई उपयोगी लागेको छ भने कृपया Play Store मा 5⭐ रेटिङ र छोटो समीक्षा दिनुहोस्।\n\nतपाईंको प्रतिक्रिया र सुझावले हामीलाई एप अझ राम्रो बनाउन मद्दत गर्छ।\n\nधन्यवाद 🙏",
+  "imageUrl": "",
+  "type": "rating",
+  "show_once": true,
+  "version": "35",
+  "start_date": "2026-05-26",
+  "end_date": "2026-05-27",
+  "primaryButton": "⭐ Rate Now",
+  "secondaryButton": "Later",
+  "playstoreUrl": "https://play.google.com/store/apps/details?id=com.shreeyadahal.patrohub",
+  "delaySeconds": 4,
+  "minAppOpens": 0
+}
