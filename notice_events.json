@@ -21,9 +21,7 @@
         { "place": "Pokhara", "placeNe": "पोखरा", "visible": true, "time": "10:17 AM", "note": "" },
         { "place": "Biratnagar", "placeNe": "विराटनगर", "visible": true, "time": "10:08 AM", "note": "" }
       ],
-      "isImportant": true,
-      "source": "Nepal Panchanga Nirnayak Samiti"
-    },
+    
     
        
 }
