@@ -24,44 +24,6 @@
       "isImportant": true,
       "source": "Nepal Panchanga Nirnayak Samiti"
     },
-    {
-      "id": "chandragrahan-sample",
-      "type": "chandragrahan",
-      "titleNe": "चन्द्रग्रहण",
-      "titleEn": "Lunar Eclipse",
-      "dateBs": "२०८३ भदौ १२",
-      "dateAd": "2026-08-28",
-      "startTime": "2026-08-28T08:00:00+05:45",
-      "endTime": "2026-08-28T11:30:00+05:45",
-      "summaryNe": "नेपालमा देखिने/नदेखिने स्थान तल हेर्नुहोस्। (नमुना डाटा)",
-      "details": [
-        { "label": "सुरु", "value": "८:०० बजे" },
-        { "label": "अधिकतम", "value": "९:४५ बजे" },
-        { "label": "अन्त्य", "value": "११:३० बजे" }
-      ],
-      "visibility": [
-        { "place": "Kathmandu", "placeNe": "काठमाडौं", "visible": true, "time": "9:45 AM", "note": "आंशिक" },
-        { "place": "Janakpur", "placeNe": "जनकपुर", "visible": false, "time": "", "note": "देखिँदैन" }
-      ],
-      "isImportant": false,
-      "source": "Sample"
-    },
-    {
-      "id": "suryagrahan-sample",
-      "type": "suryagrahan",
-      "titleNe": "सूर्यग्रहण",
-      "titleEn": "Solar Eclipse",
-      "dateBs": "२०८४ वैशाख १",
-      "dateAd": "2027-08-02",
-      "startTime": "2027-08-02T15:00:00+05:45",
-      "endTime": "2027-08-02T17:00:00+05:45",
-      "summaryNe": "नेपालबाट देखिन्छ कि देखिँदैन — स्थानअनुसार हेर्नुहोस्। (नमुना डाटा)",
-      "details": [],
-      "visibility": [
-        { "place": "Kathmandu", "placeNe": "काठमाडौं", "visible": false, "time": "", "note": "नेपालबाट देखिँदैन" }
-      ],
-      "isImportant": false,
-      "source": "Sample"
-    }
-  ]
+    
+       
 }
