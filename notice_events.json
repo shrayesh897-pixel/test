@@ -3,7 +3,7 @@
   "id": "dashain_2083_v2",
   "start": "2026-10-10",
   "end": "2026-10-30",
-  "show_once": true,
+  "show_once": false,
   "dismissible": true,
   "accent_color": "#D32F2F",
   "image": "https://calendar-event.pages.dev/images/dashain.jpg",
@@ -13,7 +13,7 @@
     "hi": "दशहरा की हार्दिक शुभकामनाएँ 🙏"
   },
   "message": {
-    "ne": "यो पावन पर्वले तपाईंको जीवनमा सुख, शान्ति र समृद्धि ल्याओस्।",
+    "ne": "https://calendar-event.pages.dev/dashain.html",
     "en": "May this festival bring happiness, peace and prosperity to your life.",
     "hi": "यह पावन पर्व आपके जीवन में सुख, शांति और समृद्धि लाए।"
   },
