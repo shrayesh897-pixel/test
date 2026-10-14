@@ -1,70 +1,23 @@
 {
-  "version": 1,
-  "updatedAt": "2026-10-13",
-
-  "ui": {
-    "pageTitleNe": "सूचना",
-    "pageTitleEn": "Notices",
-    "emptyNe": "कुनै सूचना छैन",
-    "emptyEn": "No notices",
-    "newNe": "नयाँ",
-    "newEn": "NEW",
-    "readMoreNe": "थप हेर्नुहोस्",
-    "readMoreEn": "Read more",
-    "timeLabelNe": "साइत समय",
-    "timeLabelEn": "Sait time",
-    "nepalTimeNe": "नेपाली समय",
-    "nepalTimeEn": "Nepal time",
-    "localTimeNe": "तपाईंको समय",
-    "localTimeEn": "Your time",
-    "detailsLabelNe": "विवरण",
-    "detailsLabelEn": "Details",
-    "placesLabelNe": "स्थान अनुसार समय",
-    "placesLabelEn": "Time by place"
+  "enabled": true,
+  "id": "dashain_2083",
+  "start": "2026-08-10T00:00:00+05:45",
+  "end": "2026-08-30T23:59:59+05:45",
+  "show_once": true,
+  "dismissible": true,
+  "accent_color": "#D32F2F",
+  "image": "https://calendar-event.pages.dev/images/dashain.jpg",
+  "title": {
+    "ne": "विजया दशमीको हार्दिक शुभकामना 🙏",
+    "en": "Happy Vijaya Dashami 🙏",
+    "hi": "विजयादशमी की हार्दिक शुभकामनाएँ 🙏"
   },
-
-  "notices": [
-    {
-      "id": "dashain-tika-2083",
-      "enabled": true,
-      "type": "tika_sait",
-      "color": "#E65100",
-
-      "titleNe": "विजया दशमी टीका साइत",
-      "titleEn": "Dashain Tika Sait",
-      "dateBs": "२०८३ आश्विन ५",
-      "dateAd": "2026-10-21",
-      "startTime": "2026-10-21T10:15:00+05:45",
-      "endTime": "2026-10-21T11:30:00+05:45",
-
-      "summaryNe": "यो साइतमा टीका लगाउनु शुभ मानिन्छ। (नमुना डाटा — पञ्चाङ्गबाट प्रमाणित गर्नुहोस्)",
-      "summaryEn": "Receiving tika at this time is considered auspicious. (Sample data — verify with the panchang)",
-
-      "details": [
-        { "labelNe": "टीका साइत", "labelEn": "Tika sait", "valueNe": "बिहान १०:१५ बजे", "valueEn": "10:15 AM" },
-        { "labelNe": "जमरा", "labelEn": "Jamara", "valueNe": "साइतभन्दा पहिले", "valueEn": "Before the sait" }
-      ],
-
-      "visibility": [
-        { "place": "Kathmandu", "placeNe": "काठमाडौं", "visible": true, "time": "10:15 AM", "note": "" },
-        { "place": "Pokhara", "placeNe": "पोखरा", "visible": true, "time": "10:17 AM", "note": "" },
-        { "place": "Biratnagar", "placeNe": "विराटनगर", "visible": true, "time": "10:08 AM", "note": "" }
-      ],
-
-      "sections": ["summary", "time", "details", "places"]
-    },
-
-    {
-      "id": "example-info-disabled",
-      "enabled": false,
-      "type": "info",
-      "titleNe": "उदाहरण सूचना",
-      "titleEn": "Example notice",
-      "summaryNe": "यो सूचना बन्द (enabled:false) छ, त्यसैले एपमा देखिँदैन।",
-      "summaryEn": "This notice is disabled (enabled:false), so it does not show in the app.",
-      "link": "",
-      "showFrom": "2026-10-14",
-      "showUntil": "2026-10-30"
-    }
-  ]
+  "message": {
+    "ne": "यो पावन पर्वले तपाईंको जीवनमा सुख, शान्ति र समृद्धि ल्याओस्।",
+    "en": "May this festival bring happiness, peace and prosperity to your life.",
+    "hi": "यह पावन पर्व आपके जीवन में सुख, शांति और समृद्धि लाए।"
+  },
+  "close_text": { "ne": "बन्द गर्नुहोस्", "en": "Close", "hi": "बंद करें" },
+  "button_text": { "ne": "एप सेयर", "en": "Share App", "hi": "ऐप शेयर" },
+  "button_url": "https://play.google.com/store/apps/details?id=com.shreeyadahal.patrohub"
 }
