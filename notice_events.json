@@ -1,21 +1,70 @@
 {
+  "version": 1,
+  "updatedAt": "2026-10-13",
+
+  "ui": {
+    "pageTitleNe": "सूचना",
+    "pageTitleEn": "Notices",
+    "emptyNe": "कुनै सूचना छैन",
+    "emptyEn": "No notices",
+    "newNe": "नयाँ",
+    "newEn": "NEW",
+    "readMoreNe": "थप हेर्नुहोस्",
+    "readMoreEn": "Read more",
+    "timeLabelNe": "साइत समय",
+    "timeLabelEn": "Sait time",
+    "nepalTimeNe": "नेपाली समय",
+    "nepalTimeEn": "Nepal time",
+    "localTimeNe": "तपाईंको समय",
+    "localTimeEn": "Your time",
+    "detailsLabelNe": "विवरण",
+    "detailsLabelEn": "Details",
+    "placesLabelNe": "स्थान अनुसार समय",
+    "placesLabelEn": "Time by place"
+  },
+
   "notices": [
     {
       "id": "dashain-tika-2083",
-      "type": "festival",
-      "title": {
-        "ne": "विजया दशमी — टीकाको साइत",
-        "en": "Vijaya Dashami — Tika Sait"
-      },
-      "date": "२०८३ आश्विन  (नमूना मिति)",
-      "body": {
-        "ne": "विजया दशमीको टीका लगाउने साइत: बिहान XX:XX बजे। (यो नमूना हो — यहाँ सही साइत लेख्नुहोस्।) सबै देशका नेपालीहरूलाई विजया दशमीको हार्दिक मंगलमय शुभकामना।",
-        "en": "Tika sait for Vijaya Dashami: XX:XX AM (Nepal time). (Sample — put the real sait here.) Happy Dashain to Nepalis in every country."
-      },
+      "enabled": true,
+      "type": "tika_sait",
+      "color": "#E65100",
+
+      "titleNe": "विजया दशमी टीका साइत",
+      "titleEn": "Dashain Tika Sait",
+      "dateBs": "२०८३ आश्विन ५",
+      "dateAd": "2026-10-21",
+      "startTime": "2026-10-21T10:15:00+05:45",
+      "endTime": "2026-10-21T11:30:00+05:45",
+
+      "summaryNe": "यो साइतमा टीका लगाउनु शुभ मानिन्छ। (नमुना डाटा — पञ्चाङ्गबाट प्रमाणित गर्नुहोस्)",
+      "summaryEn": "Receiving tika at this time is considered auspicious. (Sample data — verify with the panchang)",
+
+      "details": [
+        { "labelNe": "टीका साइत", "labelEn": "Tika sait", "valueNe": "बिहान १०:१५ बजे", "valueEn": "10:15 AM" },
+        { "labelNe": "जमरा", "labelEn": "Jamara", "valueNe": "साइतभन्दा पहिले", "valueEn": "Before the sait" }
+      ],
+
+      "visibility": [
+        { "place": "Kathmandu", "placeNe": "काठमाडौं", "visible": true, "time": "10:15 AM", "note": "" },
+        { "place": "Pokhara", "placeNe": "पोखरा", "visible": true, "time": "10:17 AM", "note": "" },
+        { "place": "Biratnagar", "placeNe": "विराटनगर", "visible": true, "time": "10:08 AM", "note": "" }
+      ],
+
+      "sections": ["summary", "time", "details", "places"]
+    },
+
+    {
+      "id": "example-info-disabled",
+      "enabled": false,
+      "type": "info",
+      "titleNe": "उदाहरण सूचना",
+      "titleEn": "Example notice",
+      "summaryNe": "यो सूचना बन्द (enabled:false) छ, त्यसैले एपमा देखिँदैन।",
+      "summaryEn": "This notice is disabled (enabled:false), so it does not show in the app.",
       "link": "",
-      "start": "2026-10-14",
-      "end": "2026-10-25",
-      "enabled": true
+      "showFrom": "2026-10-14",
+      "showUntil": "2026-10-30"
     }
   ]
 }
