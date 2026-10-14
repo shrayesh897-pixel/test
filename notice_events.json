@@ -1,27 +1,21 @@
 {
-  "version": 1,
-  "updatedAt": "2026-10-13T09:00:00+05:45",
   "notices": [
     {
       "id": "dashain-tika-2083",
-      "type": "tika_sait",
-      "titleNe": "विजया दशमी टीका साइत",
-      "titleEn": "Dashain Tika Sait",
-      "dateBs": "२०८३ आश्विन ५",
-      "dateAd": "2026-10-21",
-      "startTime": "2026-10-21T10:15:00+05:45",
-      "endTime": "2026-10-21T11:30:00+05:45",
-      "summaryNe": "यो साइतमा टीका लगाउनु शुभ मानिन्छ। (नमुना डाटा — पञ्चाङ्गबाट प्रमाणित गर्नुहोस्)",
-      "details": [
-        { "label": "टीका साइत", "value": "बिहान १०:१५ बजे" },
-        { "label": "जमरा", "value": "साइतभन्दा पहिले" }
-      ],
-      "visibility": [
-        { "place": "Kathmandu", "placeNe": "काठमाडौं", "visible": true, "time": "10:15 AM", "note": "" },
-        { "place": "Pokhara", "placeNe": "पोखरा", "visible": true, "time": "10:17 AM", "note": "" },
-        { "place": "Biratnagar", "placeNe": "विराटनगर", "visible": true, "time": "10:08 AM", "note": "" }
-      ],
-    
-    
-       
+      "type": "festival",
+      "title": {
+        "ne": "विजया दशमी — टीकाको साइत",
+        "en": "Vijaya Dashami — Tika Sait"
+      },
+      "date": "२०८३ आश्विन  (नमूना मिति)",
+      "body": {
+        "ne": "विजया दशमीको टीका लगाउने साइत: बिहान XX:XX बजे। (यो नमूना हो — यहाँ सही साइत लेख्नुहोस्।) सबै देशका नेपालीहरूलाई विजया दशमीको हार्दिक मंगलमय शुभकामना।",
+        "en": "Tika sait for Vijaya Dashami: XX:XX AM (Nepal time). (Sample — put the real sait here.) Happy Dashain to Nepalis in every country."
+      },
+      "link": "",
+      "start": "2026-10-14",
+      "end": "2026-10-25",
+      "enabled": true
+    }
+  ]
 }
